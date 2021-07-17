@@ -1,0 +1,11 @@
+.wcLogo {
+  height: 40px;
+  width: 32px;
+}
+.navigation {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+}

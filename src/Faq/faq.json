@@ -1,0 +1,47 @@
+[
+  {
+    "header": "What is this location?",
+    "description": "Woodland Critters is hosted on privately owned land.",
+    "items": [
+      "The inside of the cabin and garage are off limits to attendees.",
+      "Do not wander past marked property lines.",
+      "Keep noise level down to a reasonable volume during sleeping hours.",
+      "As a courtesy to both our neighbors and hosts, keep exceptional acts away from sight of the public access road.",
+      "If you need to leave the property, please contact a volunteer to be escorted out of the main gate."
+    ]
+  },
+
+  {
+    "header": "What is the environment like?",
+    "description": "The mountains of Donner Pass are dry, heavily forested and high altitude. In August, expect:",
+    "items": [
+      "Averages of 75*F / 47*F",
+      "Dry ground and brush. Fire danger will be high.",
+      "Light wind.",
+      "Little to no rainfall.",
+      "Wildlife. Be cognizant of leaving food out."
+    ]
+  },
+
+  {
+    "header": "What amenities are provided?",
+    "description": "",
+    "items": [
+      "Power",
+      "Potable Water",
+      "Porta-Potties",
+      "Outdoor kitchen and grill",
+      "Showers",
+      "Firepits"
+    ]
+  },
+
+  {
+    "header": "Are pets allowed?",
+    "description": "Pets are allowed! We expect dogs, but if you are bringing another kind of pet, please let the hosts know if you need any extra accommodations.",
+    "items": [
+      "Please clean up after your pet.",
+      "The hosts are not responsible for injuries or altercations, but will do our best to provide aid when necessary."
+    ]
+  }
+]
