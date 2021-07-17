@@ -1,21 +1,14 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 body {
-  background-color: black;
+  background-color: #02002a;
   color: white;
 }
 
 .heroContainer {
+  margin-top: 40px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
-}
-
-.firewatchBg {
-  background-image: url("./assets/firewatch-background.jpg");
-  background-position: bottom;
-  background-size: cover;
-  color: white;
 }

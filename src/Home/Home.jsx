@@ -5,7 +5,7 @@ import classnames from "classnames";
 
 const Home = () => {
   return <>
-    <div className="heroContainer firewatchBg">
+    <div className={classnames("heroContainer firewatchBg", styles.hero)}>
       <h1>Woodland Critters</h1>
       <h2>Donner Pass, California</h2>
       <h2>August 5th-8th, 2021</h2>

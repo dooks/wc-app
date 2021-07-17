@@ -11,9 +11,11 @@ import Events from "./Events";
 import PackingGuide from "./PackingGuide";
 
 const App = () => {
+  const [ activeKey, setActiveKey ] = React.useState("home");
+
   return <>
-    <Tab.Container defaultActiveKey="home">
-      <Navigation />
+    <Tab.Container activeKey={activeKey}>
+      <Navigation selectKey={(ev) => setActiveKey(ev)} />
 
       <Tab.Content>
         <Tab.Pane eventKey="home">

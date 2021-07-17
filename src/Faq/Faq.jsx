@@ -5,7 +5,7 @@ import Accordion from "react-bootstrap/Accordion";
 import styles from "./Faq.module.css";
 
 const FAQ = () => {
-  return <div class="container">
+  return <div className="container">
       <Accordion defaultActiveKey="0" flush>
       {faqs.map(( faq, i) => 
         <Accordion.Item className={styles.wcAccordion} key={i} eventKey={i}>

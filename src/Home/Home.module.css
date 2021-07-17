@@ -1,3 +1,8 @@
+.hero {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
 .description {
   padding: 32px;
 }

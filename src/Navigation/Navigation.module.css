@@ -3,9 +3,7 @@
   width: 32px;
 }
 .navigation {
-  position: fixed;
-  left: 0;
-  right: 0;
+  background-color: #02002a;
 }
 
 .navigation a {
