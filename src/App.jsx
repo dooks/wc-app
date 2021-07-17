@@ -8,6 +8,8 @@ import Faq from "./Faq";
 import Map from "./Map";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
+import Events from "./Events";
+import PackingGuide from "./PackingGuide";
 
 const App = () => {
   return <>
@@ -24,8 +26,12 @@ const App = () => {
           <Register />
         </Tab.Pane>
 
-        <Tab.Pane eventKey="map">
-          <Map />
+        <Tab.Pane eventKey="packingGuide">
+          <PackingGuide />
+        </Tab.Pane>
+
+        <Tab.Pane eventKey="events">
+          <Events />
         </Tab.Pane>
       </Tab.Content>
     </Tab.Container>

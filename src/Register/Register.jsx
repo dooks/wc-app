@@ -5,7 +5,7 @@ const carpoolUrl = "https://docs.google.com/spreadsheets/d/1akYN1atPnNvSKC307R9R
 
 const Register = () => {
   return <div className="heroContainer">
-    <section>
+    <div className="container">
       <h3>
         <a href={registerUrl} target="_blank" rel="noreferrer">Register</a>
       </h3>
@@ -19,9 +19,7 @@ const Register = () => {
           <li>You must coordinate within the carpool list.</li>
         </ul>
       </div>
-    </section>
 
-    <section>
       <h3>
         <a href={carpoolUrl} target="_blank" rel="noreferrer">Carpool List</a>
       </h3>
@@ -33,7 +31,7 @@ const Register = () => {
           <li>Drive slowly on the access roads to avoid kicking up too much dust.</li>
         </ul>
       </div>
-    </section>
+    </div>
   </div>;
 };
 
