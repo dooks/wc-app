@@ -11,12 +11,11 @@ const Register = () => {
       </h3>
 
       <div>
-        <span>Requirements</span>
         <ul>
           <li>You must be 18+ to register.</li>
           <li>You must be prepared to camp outdoors.</li>
           <li>You must provide enough food for yourself.</li>
-          <li>You must coordinate within the carpool list.</li>
+          <li>You must add your car to the carpool list <i>(even if going alone!)</i>.</li>
         </ul>
       </div>
 

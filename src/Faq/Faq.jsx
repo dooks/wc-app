@@ -15,11 +15,12 @@ const FAQ = () => {
 
           <Accordion.Body>
             <span>{faq.description}</span>
-            <ul>
+
+            {faq.items && <ul>
               {faq.items.map((item, i) => 
                 <li key={i}>{item}</li>
               )}
-            </ul>
+            </ul>}
           </Accordion.Body>
         </Accordion.Item>
       )}

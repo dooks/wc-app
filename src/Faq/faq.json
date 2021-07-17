@@ -1,5 +1,10 @@
 [
   {
+    "header": "What is the address?",
+    "description": "The address and additional information will be emailed to attendees before the event."
+  },
+
+  {
     "header": "What is this location?",
     "description": "Woodland Critters is hosted on privately owned land.",
     "items": [
