@@ -5,6 +5,7 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   const currentYear = new Date().getFullYear().toString();
   return <div className={styles.footer}>
+    <hr />
     <div>
       <span>Woodland Critters</span>
       <span> {currentYear}</span>

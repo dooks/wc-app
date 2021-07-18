@@ -6,12 +6,12 @@ import classnames from "classnames";
 
 const Home = (props) => {
   return <>
-    <div className={classnames("heroContainer firewatchBg", styles.hero)}>
+    <div className={styles.hero}>
       <h1>Woodland Critters</h1>
       <h3>Donner Pass, California</h3>
       <h3>August 5th-8th, 2021</h3>
       <Button
-        style={{ "margin-top": "32px" }}
+        style={{ marginTop: "32px" }}
         variant="light"
         onClick={() => props.selectKey("register")}>
         Register

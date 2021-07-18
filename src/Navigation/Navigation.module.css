@@ -2,10 +2,7 @@
   height: 40px;
   width: 32px;
 }
-.navigation {
-  background-color: #02002a;
-}
 
-.navigation a {
-  color: white !important;
+.navigation {
+  background-color: #2a2337;
 }

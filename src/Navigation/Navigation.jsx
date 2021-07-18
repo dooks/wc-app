@@ -12,6 +12,8 @@ const donateUrl = "https://paypal.me/pools/c/8AoF9rrqIb";
 
 const Navigation = (props) => {
   return <Navbar
+    onSelect={(ev) => props.selectKey(ev)}
+    collapseOnSelect
     className={styles.navigation}
     variant="dark"
     expand="sm"
@@ -20,6 +22,7 @@ const Navigation = (props) => {
   <Container>
     <Navbar.Brand>
       {<img
+        style={{ cursor: "pointer" }}
         onClick={() => props.selectKey("home")}
         alt="Home"
         width="30"
@@ -29,11 +32,11 @@ const Navigation = (props) => {
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav navbar variant="pills">
-          <a className="nav-link" onClick={() => props.selectKey("home")}>Home</a>
-          <a className="nav-link" onClick={() => props.selectKey("register")}>Register</a>
-          <a className="nav-link" onClick={() => props.selectKey("events")}>Events</a>
-          <a className="nav-link" onClick={() => props.selectKey("packingGuide")}>Packing Guide</a>
+        <Nav variant="pills" className={styles.wcNav}>
+          <Nav.Link eventKey="home">Home</Nav.Link>
+          <Nav.Link eventKey="register">Register</Nav.Link>
+          <Nav.Link eventKey="events">Events</Nav.Link>
+          <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link>
           <a className="nav-link" href={mapUrl} target="_blank" rel="noreferrer">Map</a>
           <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">Donate</a>
         </Nav>
