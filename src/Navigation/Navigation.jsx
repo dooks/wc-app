@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 import styles from "./Navigation.module.css";
 import wcLogo from "../assets/wc-logo.svg";
 
-const mapUrl = "https://i.imgur.com/YPVGp1E.jpg";
+import mapUrl from "../assets/wc-map.jpeg";
 const donateUrl = "https://paypal.me/pools/c/8AoF9rrqIb";
 
 const Navigation = (props) => {
@@ -19,7 +19,13 @@ const Navigation = (props) => {
     fixed="top">
   <Container>
     <Navbar.Brand>
-      {<img alt="Home" width="30" height="30" src={wcLogo} />}
+      {<img
+        onClick={() => props.selectKey("home")}
+        alt="Home"
+        width="30"
+        height="30"
+        src={wcLogo}
+      />}
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

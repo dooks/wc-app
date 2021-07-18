@@ -1,14 +1,21 @@
 import * as React from "react";
 import styles from "./Home.module.css";
 
+import Button from "react-bootstrap/Button";
 import classnames from "classnames";
 
-const Home = () => {
+const Home = (props) => {
   return <>
     <div className={classnames("heroContainer firewatchBg", styles.hero)}>
       <h1>Woodland Critters</h1>
-      <h2>Donner Pass, California</h2>
-      <h2>August 5th-8th, 2021</h2>
+      <h3>Donner Pass, California</h3>
+      <h3>August 5th-8th, 2021</h3>
+      <Button
+        style={{ "margin-top": "32px" }}
+        variant="light"
+        onClick={() => props.selectKey("register")}>
+        Register
+      </Button>
     </div>
 
     <div className={classnames("container", styles.description)}>

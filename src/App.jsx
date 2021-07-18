@@ -19,7 +19,7 @@ const App = () => {
 
       <Tab.Content>
         <Tab.Pane eventKey="home">
-          <Home />
+          <Home selectKey={(ev) => setActiveKey(ev)} />
           <Faq />
         </Tab.Pane>
 
