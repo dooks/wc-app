@@ -7,11 +7,15 @@ import classnames from "classnames";
 const Home = (props) => {
   return <>
     <div className={styles.hero}>
-      <h1>Woodland Critters</h1>
-      <h3>Donner Pass, California</h3>
-      <h3>August 5th-8th, 2021</h3>
+      <h1 style={{ marginBottom: "32px" }}>Woodland Critters</h1>
+      <h4>Donner Pass, California</h4>
+      <h4>August 5th-8th, 2021</h4>
       <Button
-        style={{ marginTop: "32px" }}
+        style={{
+          marginTop: "32px",
+          border: "1px solid black"
+        }}
+        size="lg"
         variant="light"
         onClick={() => props.selectKey("register")}>
         Register
