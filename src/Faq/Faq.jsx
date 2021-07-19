@@ -10,7 +10,7 @@ const FAQ = () => {
       {faqs.map(( faq, i) => 
         <Accordion.Item className={styles.wcAccordion} key={i} eventKey={i}>
           <Accordion.Header>
-            <h4>{faq.header}</h4>
+            <h3 className={styles.header}>{faq.header}</h3>
           </Accordion.Header>
 
           <Accordion.Body>

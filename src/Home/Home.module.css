@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "title";
+  src: url("../assets/mj-alghifari.regular.ttf");
+}
+
+.title {
+  font-display: auto;
+  font-family: "title", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4em;
+  text-align: center;
+}
+
 .hero {
   height: 100vh;
   background-image: url("../assets/firewatch-background.jpg");

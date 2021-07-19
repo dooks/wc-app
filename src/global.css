@@ -15,6 +15,7 @@ body {
 
 a {
   color: #fac147 !important;
+  font-size: 0.9em;
 }
 
 a.nav-link.active {

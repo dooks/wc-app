@@ -7,9 +7,9 @@ import classnames from "classnames";
 const Home = (props) => {
   return <>
     <div className={styles.hero}>
-      <h1 style={{ marginBottom: "32px" }}>Woodland Critters</h1>
-      <h4>Donner Pass, California</h4>
-      <h4>August 5th-8th, 2021</h4>
+      <h1 className={styles.title}>Woodland Critters</h1>
+      <h2>Donner Pass, California</h2>
+      <h2>August 5th-8th, 2021</h2>
       <Button
         style={{
           marginTop: "32px",
