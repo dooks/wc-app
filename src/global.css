@@ -23,4 +23,9 @@ a.nav-link.active {
 
 a.nav-link {
   padding-left: 8px !important;
+  display: flex;
+}
+
+a.nav-link img {
+  padding-left: 4px;
 }

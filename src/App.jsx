@@ -2,38 +2,43 @@ import * as React from "react";
 
 import Tab from "react-bootstrap/Tab";
 
-import Home from "./Home";
-import Register from "./Register";
-import Faq from "./Faq";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
-import Events from "./Events";
-import PackingGuide from "./PackingGuide";
+
+const TabbedComponents = {
+  Home: React.lazy(() => import("./Home")),
+  Register: React.lazy(() => import("./Register")),
+  Faq: React.lazy(() => import("./Faq")),
+  Events: React.lazy(() => import("./Events")),
+  PackingGuide: React.lazy(() => import("./PackingGuide")),
+};
 
 const App = () => {
   const [ activeKey, setActiveKey ] = React.useState("home");
 
   return <>
-    <Tab.Container activeKey={activeKey}>
+    <Tab.Container activeKey={activeKey} mountOnEnter>
       <Navigation selectKey={(ev) => setActiveKey(ev)} />
 
       <Tab.Content>
-        <Tab.Pane eventKey="home">
-          <Home selectKey={(ev) => setActiveKey(ev)} />
-          <Faq />
-        </Tab.Pane>
+        <React.Suspense fallback={<></>}>
+          <Tab.Pane eventKey="home">
+            <TabbedComponents.Home selectKey={(ev) => setActiveKey(ev)} />
+            <TabbedComponents.Faq />
+          </Tab.Pane>
 
-        <Tab.Pane eventKey="register">
-          <Register />
-        </Tab.Pane>
+          <Tab.Pane eventKey="register">
+            <TabbedComponents.Register />
+          </Tab.Pane>
 
-        <Tab.Pane eventKey="packingGuide">
-          <PackingGuide />
-        </Tab.Pane>
+          <Tab.Pane eventKey="packingGuide">
+            <TabbedComponents.PackingGuide />
+          </Tab.Pane>
 
-        <Tab.Pane eventKey="events">
-          <Events />
-        </Tab.Pane>
+          <Tab.Pane eventKey="events">
+            <TabbedComponents.Events />
+          </Tab.Pane>
+        </React.Suspense>
       </Tab.Content>
     </Tab.Container>
 

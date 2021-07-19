@@ -8,6 +8,7 @@ import styles from "./Navigation.module.css";
 import wcLogo from "../assets/wc-logo.svg";
 
 import mapUrl from "../assets/wc-map.jpeg";
+import exitIcon from "../assets/box-arrow-up-right.svg";
 const donateUrl = "https://paypal.me/pools/c/8AoF9rrqIb";
 
 const Navigation = (props) => {
@@ -17,8 +18,7 @@ const Navigation = (props) => {
     className={styles.navigation}
     variant="dark"
     expand="sm"
-    sticky="top"
-    fixed="top">
+    sticky="top">
   <Container>
     <Navbar.Brand>
       {<img
@@ -37,8 +37,12 @@ const Navigation = (props) => {
           <Nav.Link eventKey="register">Register</Nav.Link>
           <Nav.Link eventKey="events">Events</Nav.Link>
           <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link>
-          <a className="nav-link" href={mapUrl} target="_blank" rel="noreferrer">Map</a>
-          <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">Donate</a>
+          <a className="nav-link" href={mapUrl} target="_blank" rel="noreferrer">
+            Map <img src={exitIcon} alt="" />
+          </a>
+          <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">
+            Donate <img src={exitIcon} alt="" />
+          </a>
         </Nav>
       </Navbar.Collapse>
     </Container>
