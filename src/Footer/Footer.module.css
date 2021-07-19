@@ -1,5 +1,5 @@
 .footer {
-  margin: 32px;
-  margin-top: 128px;
+  padding: 64px;
   text-align: center;
+  margin: 0 auto;
 }
