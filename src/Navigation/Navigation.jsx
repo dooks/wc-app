@@ -32,16 +32,16 @@ const Navigation = (props) => {
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav variant="pills" className={styles.wcNav}>
+        <Nav variant="pills">
           <Nav.Link eventKey="home">Home</Nav.Link>
           <Nav.Link eventKey="register">Register</Nav.Link>
           <Nav.Link eventKey="events">Events</Nav.Link>
           <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link>
           <a className="nav-link" href={mapUrl} target="_blank" rel="noreferrer">
-            Map <img src={exitIcon} alt="" />
+            Map <img src={exitIcon} width={20} height={24} alt="" />
           </a>
           <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">
-            Donate <img src={exitIcon} alt="" />
+            Donate <img src={exitIcon} width={20} height={24} alt="" />
           </a>
         </Nav>
       </Navbar.Collapse>
