@@ -30,3 +30,9 @@ a.nav-link {
 a.nav-link img {
   padding-left: 4px;
 }
+
+
+::selection {
+  color: white !important;
+  background-color: #2a3d27 !important;
+}

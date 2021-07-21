@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Essentials",
+    "items": [
+      "Food",
+      "Water Bottle",
+      "Clothes",
+      "Jacket",
+      "Hiking boots (or other outdoor shoes)",
+      "Tent",
+      "Sleeping Bag",
+      "Mess Kit (plate, fork, spoon, knife)",
+      "Headlamp",
+      "Medication",
+      "Toothbrush, bio-degradable toothpaste",
+      "Biodegradable body soap/shampoo",
+      "Chairs",
+      "Bugspray",
+      "Sunscreen",
+      "Chargers"
+    ]
+  },
+
+  {
+    "name": "Camping Gear",
+    "items": [
+      "Sleeping Pad",
+      "Pillows",
+      "Cooler",
+      "Blankets",
+      "Towel",
+      "Mallot",
+      "Rope/Paracord",
+      "Flashlight"
+    ]
+  },
+
+  {
+    "name": "Clothing",
+    "items": [
+      "Fursuit!",
+      "Hat with wide brim",
+      "Shorts",
+      "Long underwear",
+      "Kigus",
+      "Sunglasses"
+    ]
+  },
+
+  {
+    "name": "Food and Drink",
+    "items": [
+      "Paper towels",
+      "Ice",
+      "Alcohol",
+      "Coffee",
+      "Soda",
+      "Snacks",
+      "Camp Stove/Grill",
+      "Tongs",
+      "Cups",
+      "Trail mix",
+      "Aluminum foil",
+      "Ziploc Bags",
+      "Spatula",
+      "Pots/Pans"
+    ]
+  },
+
+  {
+    "name": "Miscellanous",
+    "items": [
+      "Instruments",
+      "Music player",
+      "Camera"
+    ]
+  }
+]

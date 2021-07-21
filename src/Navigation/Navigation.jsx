@@ -37,9 +37,7 @@ const Navigation = (props) => {
           <Nav.Link eventKey="register">Register</Nav.Link>
           <Nav.Link eventKey="events">Events</Nav.Link>
           <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link>
-          <a className="nav-link" href={mapUrl} target="_blank" rel="noreferrer">
-            Map <img src={exitIcon} width={20} height={24} alt="" />
-          </a>
+          <a className="nav-link" href={mapUrl}>Map</a>
           <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">
             Donate <img src={exitIcon} width={20} height={24} alt="" />
           </a>

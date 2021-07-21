@@ -1,0 +1,56 @@
+.gridContainer {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+@media (min-width: 768px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: 
+      "essentials gear food"
+      "essentials clothing food"
+      "essentials misc .";
+  }
+}
+
+.card {
+  width: 100%;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 256px;
+  }
+}
+
+.card:nth-child(1) {
+  grid-area: essentials;
+}
+
+.card:nth-child(2) {
+  grid-area: gear;
+}
+
+.card:nth-child(3) {
+  grid-area: clothing;
+}
+
+.card:nth-child(4) {
+  grid-area: food;
+}
+
+.card:nth-child(5) {
+  grid-area: misc;
+}
+
+.item {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+}
+
+.label {
+  cursor: pointer;
+}
