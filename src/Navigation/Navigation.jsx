@@ -7,7 +7,7 @@ import Container from "react-bootstrap/Container";
 import styles from "./Navigation.module.css";
 import wcLogo from "../assets/wc-logo.svg";
 
-import mapUrl from "../assets/wc-map.jpeg";
+import mapUrl from "../assets/wc-map-new.png";
 import exitIcon from "../assets/box-arrow-up-right.svg";
 const donateUrl = "https://paypal.me/pools/c/8AoF9rrqIb";
 
