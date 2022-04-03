@@ -12,7 +12,7 @@
 
 .hero {
   height: 100vh;
-  background-image: url("../assets/firewatch-background.jpg");
+  background-image: url("../assets/goldrush-background.png");
   background-position: bottom;
   background-size: cover;
   color: black;
@@ -25,4 +25,10 @@
 
 .description {
   padding: 32px;
+}
+
+.registerBtn {
+  margin-top: 32px;
+  border: 1px solid black;
+  color: black !important;
 }

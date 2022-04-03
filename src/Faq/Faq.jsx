@@ -6,7 +6,7 @@ import styles from "./Faq.module.css";
 
 const FAQ = () => {
   return <div className="container">
-      <Accordion defaultActiveKey="0" flush>
+    <Accordion defaultActiveKey={["0"]} flush alwaysOpen>
       {faqs.map(( faq, i) => 
         <Accordion.Item className={styles.wcAccordion} key={i} eventKey={i}>
           <Accordion.Header>

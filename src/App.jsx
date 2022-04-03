@@ -10,7 +10,6 @@ const TabbedComponents = {
   Register: React.lazy(() => import("./Register")),
   Faq: React.lazy(() => import("./Faq")),
   Events: React.lazy(() => import("./Events")),
-  PackingGuide: React.lazy(() => import("./PackingGuide")),
 };
 
 const App = () => {
@@ -29,10 +28,6 @@ const App = () => {
 
           <Tab.Pane eventKey="register">
             <TabbedComponents.Register />
-          </Tab.Pane>
-
-          <Tab.Pane eventKey="packingGuide">
-            <TabbedComponents.PackingGuide />
           </Tab.Pane>
 
           <Tab.Pane eventKey="events">

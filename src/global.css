@@ -1,7 +1,7 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 body {
-  background-color: #2a2337;
+  background-color: #3A2125;
   color: white;
 }
 
@@ -30,7 +30,6 @@ a.nav-link {
 a.nav-link img {
   padding-left: 4px;
 }
-
 
 ::selection {
   color: white !important;

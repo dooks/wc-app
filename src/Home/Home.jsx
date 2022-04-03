@@ -11,10 +11,7 @@ const Home = (props) => {
       <h2>Donner Pass, California</h2>
       <h2>August 5th-8th, 2021</h2>
       <Button
-        style={{
-          marginTop: "32px",
-          border: "1px solid black"
-        }}
+        className={styles.registerBtn}
         size="lg"
         variant="light"
         onClick={() => props.selectKey("register")}>

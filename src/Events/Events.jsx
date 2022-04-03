@@ -7,13 +7,8 @@ const Events = () => {
 
       <p>
         Have something that you want to share? Wanna have a movie night, a beer tasting,
-        Yoga class, host tarot readings, do a music performance, got a Dj set, or share
+        Yoga class, host tarot readings, do a music performance, got a DJ set, or share
         whatever other awesome things you love to do! Then sign on up!
-      </p>
-
-      <p>
-        We will have 2 PA's and a mixer available for DJ's and musicians courtesy of @lekolightfox.
-        Performers should be sure to bring all other necessary equipment i.e: mics, cables, etc.
       </p>
 
       <h3>

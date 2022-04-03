@@ -5,11 +5,11 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 
 import styles from "./Navigation.module.css";
-import wcLogo from "../assets/wc-logo.svg";
+import wcLogo from "../assets/wc-logo-2022.svg";
 
-import mapUrl from "../assets/wc-map-new.png";
-import exitIcon from "../assets/box-arrow-up-right.svg";
-const donateUrl = "https://paypal.me/pools/c/8AoF9rrqIb";
+// import mapUrl from "../assets/wc-map-new.png";
+// import exitIcon from "../assets/box-arrow-up-right.svg";
+// const donateUrl = "/";
 
 const Navigation = (props) => {
   return <Navbar
@@ -35,12 +35,12 @@ const Navigation = (props) => {
         <Nav variant="pills">
           <Nav.Link eventKey="home">Home</Nav.Link>
           <Nav.Link eventKey="register">Register</Nav.Link>
-          <Nav.Link eventKey="events">Events</Nav.Link>
-          <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link>
-          <a className="nav-link" href={mapUrl}>Map</a>
-          <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">
+          {/* <Nav.Link eventKey="events">Events</Nav.Link> */}
+          {/* <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link> */}
+          {/* <a className="nav-link" href={mapUrl}>Map</a> */}
+          {/* <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">
             Donate <img src={exitIcon} width={20} height={24} alt="" />
-          </a>
+          </a> */}
         </Nav>
       </Navbar.Collapse>
     </Container>
