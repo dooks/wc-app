@@ -2,7 +2,7 @@ import * as React from "react";
 
 import styles from "./Register.module.css";
 
-// const registerUrl = "https://forms.gle/HvYV1UQpjxUPgWdF9";
+const registerUrl = "https://forms.gle/HvYV1UQpjxUPgWdF9";
 // const carpoolUrl = "https://docs.google.com/spreadsheets/d/1akYN1atPnNvSKC307R9RvCaFRN3EVGxdtQhLbeue3jE";
 // const volunteerUrl = "https://docs.google.com/spreadsheets/d/12IcNfQf4Q5gAebUi24pVXBrF9KGKypqe0hk1JnOH6Is";
 
@@ -11,11 +11,11 @@ const Register = () => {
     <div className="container">
       <h3>
         <a
-          className={styles.disabled}
-          disabled
+          // className={styles.disabled}
+          // disabled
           target="_blank"
           rel="noreferrer"
-          // href={registerUrl}
+          href={registerUrl}
           >
           Register
         </a>
@@ -23,7 +23,7 @@ const Register = () => {
 
       <div>
         <ul>
-          <li><strong>Registration is closed.</strong></li>
+          {/* <li><strong>Registration is closed.</strong></li> */}
           <li>You must be 18+ to register.</li>
           <li>You must be prepared to camp outdoors.</li>
           <li>You must provide enough food for yourself.</li>
