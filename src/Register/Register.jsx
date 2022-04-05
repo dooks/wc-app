@@ -26,6 +26,7 @@ const Register = () => {
           {/* <li><strong>Registration is closed.</strong></li> */}
           <li>You must be 18+ to register.</li>
           <li>You must be prepared to camp outdoors.</li>
+          <li>You must be vaccinated.</li>
           <li>You must provide enough food for yourself.</li>
         </ul>
       </div>
