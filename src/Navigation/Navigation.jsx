@@ -33,8 +33,8 @@ const Navigation = (props) => {
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav variant="pills">
-          <Nav.Link eventKey="home">Home</Nav.Link>
-          <Nav.Link eventKey="register">Register</Nav.Link>
+          <Nav.Link className={styles.navLink} eventKey="home">Home</Nav.Link>
+          <Nav.Link className={styles.navLink} eventKey="register">Register</Nav.Link>
           {/* <Nav.Link eventKey="events">Events</Nav.Link> */}
           {/* <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link> */}
           {/* <a className="nav-link" href={mapUrl}>Map</a> */}
