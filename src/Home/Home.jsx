@@ -9,7 +9,7 @@ const Home = (props) => {
     <div className={styles.hero}>
       <h1 className={styles.title}>Woodland Critters</h1>
       <h2>Donner Pass, California</h2>
-      <h2>August 5th-8th, 2021</h2>
+      <h2>July 7th - 11th, 2022</h2>
       <Button
         className={styles.registerBtn}
         size="lg"
