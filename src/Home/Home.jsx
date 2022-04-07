@@ -27,7 +27,7 @@ const Home = (props) => {
       </p>
 
       <p>
-        We abide by the <a href="https://burningman.org/culture/philosophical-center/10-principles" target="_blank" rel="noreferrer">
+        We abide by the <a href="https://burningman.org/about/10-principles/" target="_blank" rel="noreferrer">
           Burning Man 10 Principles.
         </a>
       </p>
