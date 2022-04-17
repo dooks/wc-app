@@ -11,8 +11,8 @@ const Register = () => {
     <div className="container">
       <h3>
         <a
-          // className={styles.disabled}
-          // disabled
+          className={styles.disabled}
+          disabled
           target="_blank"
           rel="noreferrer"
           href={registerUrl}
@@ -23,7 +23,7 @@ const Register = () => {
 
       <div>
         <ul>
-          {/* <li><strong>Registration is closed.</strong></li> */}
+          <li><strong>Registration is closed.</strong></li>
           <li>You must be 18+ to register.</li>
           <li>You must be prepared to camp outdoors.</li>
           <li>You must be vaccinated.</li>
