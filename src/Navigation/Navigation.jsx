@@ -36,7 +36,7 @@ const Navigation = (props) => {
           <Nav.Link className={styles.navLink} eventKey="home">Home</Nav.Link>
           <Nav.Link className={styles.navLink} eventKey="register">Register</Nav.Link>
           <Nav.Link eventKey="events">Events</Nav.Link>
-          {/* <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link> */}
+          <Nav.Link eventKey="packingGuide">Packing Guide</Nav.Link>
           {/* <a className="nav-link" href={mapUrl}>Map</a> */}
           {/* <a className="nav-link" href={donateUrl} target="_blank" rel="noreferrer">
             Donate <img src={exitIcon} width={20} height={24} alt="" />
