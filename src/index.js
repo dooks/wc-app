@@ -10,7 +10,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/wc-app">
       <App />
     </BrowserRouter>
   </React.StrictMode>
