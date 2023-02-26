@@ -1,0 +1,54 @@
+[
+  {
+    "header": "What is the address?",
+    "description": "To protect our privacy, the address will be provided directly to attendees before the event."
+  },
+
+  {
+    "header": "What is the weather like in Donner Pass?",
+    "description": "Donner Pass experiences a high alpine climate, which can be quite unpredictable. In the month of June, temperatures can range from 60°F to 80°F during the day, with cooler temperatures as low as 30°F in the evenings. Thunderstorms are common during this time of year, so attendees should be prepared for sudden changes in weather."
+  },
+
+  {
+    "header": "How private is this event?",
+    "description": "The land is owned and part of a gated, forested community. Though the event is isolated, be mindful that there is a public trail further down the road.",
+    "items": [
+      "Nudity is allowed at all times, but please keep it away from the public trail.",
+      "The neighbors are aware of the event, and live far outside the range of noise the event will be producing.",
+      "Follow the posted signs and be wary of markers to ensure you do not accidentally wander onto other properties."
+    ]
+  },
+
+  {
+    "header": "What is the environment like?",
+    "items": [
+      "Wildlife that can be spotted in the surrounding area include black bears, mountain lions, coyotes, and several species of birds, including the northern goshawk and the white-headed woodpecker. Note that all of these animals will be deterred from the property due to noise.",
+      "Attendees can expect to see a range of wildflowers, including lupines, Indian paintbrush, and wild iris.",
+      "Mosquitoes, wasps, and ticks are also present in the area during this time of year, so we recommend bringing insect repellent to avoid bites."
+    ]
+  },
+
+  {
+    "header": "What amenities are available?",
+    "description": "As of this year (2023), we no longer have well access. Water will be sourced and pumped from the nearby river for utility purposes, so we recommend bringing your own potable water source or a filter. In the month of June, expect rapid water flow and cold temperatures.",
+    "items": [
+      "Power",
+      "Porta-Potties",
+      "Camp kitchen",
+      "Water for showers and washing",
+      "Showers",
+      "Firepits",
+      "Medical Tent"
+    ]
+  },
+
+  {
+    "header": "Are campfires allowed?",
+    "description": "We expect burn bans every single summer in Donner Pass. However, numerous propane fire pits and heat lamps will be available. Propane stoves will also be available in the camp kitchen."
+  },
+
+  {
+    "header": "Are there any hikes nearby?",
+    "description": "The property itself is also quite massive and extends far north, and is freely accessible to roam. If you're looking for a more structured experience, Lola Montez Lake is a beautiful alpine lake that can be accessed by following the 'Hole In The Ground' trail north. It's important to note that the water temperature in Lola Montez Lake can be quite cold, even in June, so attendees should be prepared for chilly water temperatures."
+  }
+]

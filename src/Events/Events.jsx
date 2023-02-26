@@ -1,12 +1,15 @@
 import * as React from "react";
 
-const eventsUrl = "https://docs.google.com/spreadsheets/d/1eFJbd1zJg7nKBmTvHY4Kr414kkqa1s0sL5aGoCh3pPY/edit";
-// const eventsScheduleUrl = "";
+const eventsUrl = "";
 
 const Events = () => {
   return <div className="heroContainer">
     <div className="container">
-      <h3><a href={eventsUrl} target="_blank" rel="noreferrer">Sign Up</a></h3>
+      <h3><a
+        style={{ cursor: "not-allowed", textDecoration: "line-through"}}
+        // href=""
+        target="_blank"
+        rel="noreferrer">Sign Up</a></h3>
 
       <p>
         Have something that you want to share? Wanna have a movie night, a beer tasting,

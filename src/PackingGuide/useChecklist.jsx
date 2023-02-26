@@ -24,12 +24,11 @@ const useChecklist = () => {
       categories.reduce((prev, curr) => (prev[curr.name] = {}, prev), {});
   }, [localStorage]);
 
-  const [ checklist, _setChecklist ] = React.useState(cachedChecklist);
+  const [ checklist, setChecklist ] = React.useState(cachedChecklist);
 
-  const setChecklist = React.useCallback((obj) => {
-    localStorage.setItem("checklist", JSON.stringify(obj));
-    _setChecklist(obj);
-  }, [localStorage]);
+  React.useEffect(() => {
+    localStorage.setItem("checklist", JSON.stringify(checklist));
+  }, [checklist]);
 
   return {
     setChecklist,

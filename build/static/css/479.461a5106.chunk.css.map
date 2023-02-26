@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/479.461a5106.chunk.css","mappings":"AAAA,qBACE,eACF,CAEA,2DACE,kCAAoC,CACpC,oBACF","sources":["Venue/Venue.module.css"],"sourcesContent":[".header {\r\n  font-size: 1.2em;\r\n}\r\n\r\n.wcAccordion, .wcAccordion button {\r\n  background-color: #2a2337 !important;\r\n  color: white !important;\r\n}\r\n"],"names":[],"sourceRoot":""}

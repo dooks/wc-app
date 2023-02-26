@@ -9,11 +9,16 @@ const Home = (props) => {
     <div className={styles.hero}>
       <h1 className={styles.title}>Woodland Critters</h1>
       <h2>Donner Pass, California</h2>
-      <h2>July 7th - 10th, 2022</h2>
+      <h2>June 15th - 19th, 2023</h2>
       <Button
         className={styles.registerBtn}
+
+        // Disable registration button
+        style={{ cursor: "not-allowed", pointerEvents: "all" }}
+
         size="lg"
         variant="light"
+        disabled
         onClick={() => props.selectKey("register")}>
         Register
       </Button>
