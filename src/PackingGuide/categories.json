@@ -5,7 +5,7 @@
       "Food",
       "Water Bottle",
       "Clothes",
-      "Jacket",
+      "Jacket/Outerwear",
       "Hiking boots (or other outdoor shoes)",
       "Tent",
       "Sleeping Bag",
@@ -26,7 +26,6 @@
     "items": [
       "Sleeping Pad",
       "Pillows",
-      "Cooler",
       "Blankets",
       "Towel",
       "Mallot",
@@ -36,12 +35,11 @@
   },
 
   {
-    "name": "Clothing",
+    "name": "Wearables",
     "items": [
       "Fursuit!",
+      "Thermals",
       "Hat with wide brim",
-      "Shorts",
-      "Long underwear",
       "Kigus",
       "Sunglasses"
     ]
@@ -51,16 +49,16 @@
     "name": "Food and Drink",
     "items": [
       "Potable water",
-      "Paper towels",
+      "Cooler",
       "Ice",
       "Alcohol",
       "Coffee",
       "Soda",
-      "Snacks",
+      "Snacks/Trail Mix",
       "Camp Stove/Grill",
       "Tongs",
       "Cups",
-      "Trail mix",
+      "Paper towels",
       "Aluminum foil",
       "Ziploc Bags",
       "Spatula",
