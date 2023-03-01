@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wc-app/static/css/main.dc44eb6c.css",
-    "main.js": "/wc-app/static/js/main.ab52fa40.js",
+    "main.js": "/wc-app/static/js/main.b17dc2d4.js",
     "static/css/126.b901a059.chunk.css": "/wc-app/static/css/126.b901a059.chunk.css",
     "static/js/126.7336c8f5.chunk.js": "/wc-app/static/js/126.7336c8f5.chunk.js",
     "static/css/132.c702d4c7.chunk.css": "/wc-app/static/css/132.c702d4c7.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/wc-logo-2022.svg": "/wc-app/static/media/wc-logo-2022.7d07d651b7d17bca9744596f61412759.svg",
     "index.html": "/wc-app/index.html",
     "main.dc44eb6c.css.map": "/wc-app/static/css/main.dc44eb6c.css.map",
-    "main.ab52fa40.js.map": "/wc-app/static/js/main.ab52fa40.js.map",
+    "main.b17dc2d4.js.map": "/wc-app/static/js/main.b17dc2d4.js.map",
     "126.b901a059.chunk.css.map": "/wc-app/static/css/126.b901a059.chunk.css.map",
     "126.7336c8f5.chunk.js.map": "/wc-app/static/js/126.7336c8f5.chunk.js.map",
     "132.c702d4c7.chunk.css.map": "/wc-app/static/css/132.c702d4c7.chunk.css.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.dc44eb6c.css",
-    "static/js/main.ab52fa40.js"
+    "static/js/main.b17dc2d4.js"
   ]
 }
