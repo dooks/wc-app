@@ -1,21 +1,21 @@
 [
   {
-    "header": "Attendance",
-    "description": "To alleviate our attendance cap and protect our community, new people must be referred by existing attendees. Each person will be considered on a case-by-case basis."
+    "header": "Attendance Policy",
+    "description": "Due to venue limitations, new attendees must be included as a +1 to a returning attendee, space permitting."
   },
 
   {
     "header": "Expectations",
     "description": "Attendees must:",
     "items": [
+      "Be self-reliant. Bring enough food and water for yourself.",
       "Be over the age of 21.",
       "Be prepared to camp outdoors, with temperatures as low as 30°F at night.",
-      "Be vaccinated against COVID-19.",
-      "Contact Woodland Critters staff members about ANY problems.",
-      "Maintain the property during the event.",
+      "Not be showing signs of sickness.",
+      "Help maintain the property during the event.",
       "Follow our Consent policy.",
       "Follow our Pet policy.",
-      "Be prepared to follow evacuation procedures in the event of an emergency."
+      "Follow our Evacation policy in the event of an emergency."
     ]
   },
 
@@ -25,29 +25,38 @@
     "items": [
       "Individuals must be proactive about offering or asking for consent.",
       "Individuals have the right to change their mind and withdraw consent at any time.",
+      "Individuals who violate this consent policy may be asked to leave the event.",
       "Individuals must report violations of consent to staff members, so appropriate action may be taken.",
-      "Individuals who violate this consent policy may be asked to leave the event."
+      "Issues with staff members should be escalated to another staff member to be mediated. If you do not trust the staff's ability to resolve your issue, staff will accommodate your departure if you so desire."
     ]
   },
 
   {
     "header": "Pets",
-    "description": "Woodland Critters, being a private event, would like to provide the privilege of giving pets the freedom not afforded in other public venues. However, there are still ground rules that must be followed:",
+    "description": "Woodland Critters is a dog-positive event. All dogs must be registered.",
     "items": [
-      "Leashes are not required, but pets proving to be difficult or disturbing others will be forced to wear one.",
-      "Unsupervised pets must be actively restrained.",
-      "Clean up after your pet",
-      "Pets will be given temporary bans on a case-by-case basis."
+      "Attendees must be comfortable around dogs.",
+      "Your dog must be socialized with other dogs and humans.",
+      "Leashes are not required for well behaved dogs. Staff may revoke this privilege at any time.",
+      "Unsupervised dogs must be actively restrained.",
+      "Dogs will be given temporary bans on a case-by-case basis based on previous behavior."
     ]
   },
 
   {
     "header": "Vehicles",
-    "description": "",
+    "description": "All vehicles must be registered.",
     "items": [
-      "Camper vans or similar vehicles will be allowed.",
-      "Vehicles requiring easier access will be considered on a case-by-case basis",
-      "RVs/Trailers are heavily discouraged, and will be considered on a case-by-case basis."
+      "RVs and large vehicles are not allowed, but may be approved on a case-by-case basis.",
+      "Car camping vehicles with a relatively small footprint are allowed, but placement may be awkward."
+    ]
+  },
+
+  {
+    "header": "Evacuation",
+    "description": "In the event of an emergency (such as a forest fire), attendees are expected to follow the posted procedures.",
+    "items": [
+      "TBD"
     ]
   }
 ]
