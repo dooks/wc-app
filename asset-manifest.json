@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/wc-app/static/css/main.dc44eb6c.css",
-    "main.js": "/wc-app/static/js/main.c261c253.js",
+    "main.js": "/wc-app/static/js/main.ab52fa40.js",
     "static/css/126.b901a059.chunk.css": "/wc-app/static/css/126.b901a059.chunk.css",
     "static/js/126.7336c8f5.chunk.js": "/wc-app/static/js/126.7336c8f5.chunk.js",
     "static/css/132.c702d4c7.chunk.css": "/wc-app/static/css/132.c702d4c7.chunk.css",
     "static/js/132.25e30ae7.chunk.js": "/wc-app/static/js/132.25e30ae7.chunk.js",
     "static/css/97.64915cb5.chunk.css": "/wc-app/static/css/97.64915cb5.chunk.css",
-    "static/js/97.1df19758.chunk.js": "/wc-app/static/js/97.1df19758.chunk.js",
+    "static/js/97.39b7d937.chunk.js": "/wc-app/static/js/97.39b7d937.chunk.js",
     "static/js/869.6b7f6534.chunk.js": "/wc-app/static/js/869.6b7f6534.chunk.js",
     "static/css/655.56d4994e.chunk.css": "/wc-app/static/css/655.56d4994e.chunk.css",
     "static/js/655.1086863a.chunk.js": "/wc-app/static/js/655.1086863a.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/wc-logo-2022.svg": "/wc-app/static/media/wc-logo-2022.7d07d651b7d17bca9744596f61412759.svg",
     "index.html": "/wc-app/index.html",
     "main.dc44eb6c.css.map": "/wc-app/static/css/main.dc44eb6c.css.map",
-    "main.c261c253.js.map": "/wc-app/static/js/main.c261c253.js.map",
+    "main.ab52fa40.js.map": "/wc-app/static/js/main.ab52fa40.js.map",
     "126.b901a059.chunk.css.map": "/wc-app/static/css/126.b901a059.chunk.css.map",
     "126.7336c8f5.chunk.js.map": "/wc-app/static/js/126.7336c8f5.chunk.js.map",
     "132.c702d4c7.chunk.css.map": "/wc-app/static/css/132.c702d4c7.chunk.css.map",
     "132.25e30ae7.chunk.js.map": "/wc-app/static/js/132.25e30ae7.chunk.js.map",
     "97.64915cb5.chunk.css.map": "/wc-app/static/css/97.64915cb5.chunk.css.map",
-    "97.1df19758.chunk.js.map": "/wc-app/static/js/97.1df19758.chunk.js.map",
+    "97.39b7d937.chunk.js.map": "/wc-app/static/js/97.39b7d937.chunk.js.map",
     "869.6b7f6534.chunk.js.map": "/wc-app/static/js/869.6b7f6534.chunk.js.map",
     "655.56d4994e.chunk.css.map": "/wc-app/static/css/655.56d4994e.chunk.css.map",
     "655.1086863a.chunk.js.map": "/wc-app/static/js/655.1086863a.chunk.js.map",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.dc44eb6c.css",
-    "static/js/main.c261c253.js"
+    "static/js/main.ab52fa40.js"
   ]
 }
