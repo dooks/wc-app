@@ -12,10 +12,9 @@
 
 .hero {
   height: 100vh;
-  background-image: url("../assets/goldrush-background.png");
   background-position: bottom;
   background-size: cover;
-  color: black;
+  color: white;
 
   display: flex;
   align-items: center;

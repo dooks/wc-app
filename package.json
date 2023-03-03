@@ -2,7 +2,7 @@
   "name": "wc-app",
   "version": "3.0.0",
   "private": true,
-  "homepage": "https://dooks.github.io/wc-app/",
+  "homepage": "https://woodlandcritters.net",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "classnames": "^2.3.2",
